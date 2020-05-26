@@ -44,12 +44,14 @@ body {
 }
 
 header {
-    background-color: blue;
+    /* background-color: blue; */
     height: 118px;
     /* width: 1024px; */
     text-align: center;
-    
 }
+
+
+
 
 nav {
     background-color: red;
@@ -59,10 +61,14 @@ nav {
 }
 
 main {
-    background-color:orange;
+    /* background-color:orange; */
     height: 400px;
     /* width: 1024px; */
-    
+    text-align: center;
+    /* margin-top: 80px; */
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 footer {
@@ -72,5 +78,20 @@ footer {
     
 }
 
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
