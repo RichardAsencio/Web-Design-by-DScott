@@ -33,8 +33,18 @@ footer {
 
 /* Here a container was added and since now the container has the width property the idividual elements do not need this property */
 /* Also I put the container selectro here as you want to palce things at the CSS stylesheet that reflect hierarchy, parent-child nested type, cascade order of the elements selected */
+html {
+    height: 100%;
+}
+
 body {
     background-color: #2F3035;
+    background-image: url(/Project\ 1/images/background-adare-restaurant.jpg);
+    /* this backggound size with a value of cover will set the image right for any screen size */
+    background-size: cover;
+    /* background repeat and position can be used while testing the screen size resizing */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
