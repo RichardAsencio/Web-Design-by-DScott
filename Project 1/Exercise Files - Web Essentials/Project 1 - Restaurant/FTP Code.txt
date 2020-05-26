@@ -1,0 +1,10 @@
+{
+    "name": "Blue Host",
+    "host": "ftp.adarerestaurant.com",
+    "password": "************",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "adareres",
+    "remotePath": "/public_html",
+    "uploadOnSave": false
+}
