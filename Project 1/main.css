@@ -39,7 +39,7 @@ html {
 
 body {
     background-color: #2F3035;
-    background-image: url(/Project\ 1/images/background-adare-restaurant.jpg);
+    background-image: url(images/background-adare-restaurant.jpg);
     /* this backggound size with a value of cover will set the image right for any screen size */
     background-size: cover;
     /* background repeat and position can be used while testing the screen size resizing */
