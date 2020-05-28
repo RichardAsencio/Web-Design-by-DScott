@@ -1,0 +1,43 @@
+.container {
+    width: 1024;
+    background-color: darkgreen;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    background-color: lightgreen;
+    min-height: 100px;
+}
+
+main {
+    background-color: seagreen;
+    min-height: 300px;
+}
+
+.cards {
+    background-color: greenyellow;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    background-color: blue;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card2 {
+    background-color: orange;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3 {
+    background-color: red;
+    min-height: 300px;
+    width: 33%;
+}
