@@ -1,6 +1,9 @@
+body {
+    background-color: #FC5E55;
+}
+
 .container {
-    width: 1024;
-    /* background-color: darkgreen; */
+    width: 1024px;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -8,9 +11,14 @@
 
 
 header {
-    background-color: lightgreen;
-    min-height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;;
 }
+
 
 main {
     /* background-color: seagreen; */
