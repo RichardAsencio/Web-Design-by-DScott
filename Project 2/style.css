@@ -15,6 +15,7 @@ header {
 main {
     background-color: seagreen;
     min-height: 300px;
+    display: flex;
 }
 
 .cards {
@@ -40,4 +41,17 @@ main {
     background-color: red;
     min-height: 300px;
     width: 33%;
+}
+
+
+.herobox1 {
+    background-color: purple;
+    /* width: 66.3%; this can work without flexbox */
+    flex: 2;
+}
+
+.herobox2 {
+    background-color: yellow;
+    /* width: 33.6%; this can work without flexbox */
+    flex: 1;
 }
