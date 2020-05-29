@@ -40,39 +40,37 @@ main {
     /* min-height: 300px;  */
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1 {
     /* background-color: blue; */
-    min-height: 300px;
-    width: 30%;
     background-image: url(images/image-background-card1-b.jpg);
     background-size: cover;
-    /* background repeat and position can be used while testing the screen size resizing */
-    background-repeat: no-repeat;
-    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
 }
 
 .card2 {
     /* background-color: orange; */
-    min-height: 300px;
-    width: 30%;
+    
     background-image: url(images/image-background-card2-b.jpg);
     background-size: cover;
-    /* background repeat and position can be used while testing the screen size resizing */
-    background-repeat: no-repeat;
-    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
 }
 
 .card3 {
     /* background-color: red; */
-    min-height: 300px;
-    width: 33%;
     background-image: url(images/image-background-card3-b.jpg);
     background-size: cover;
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
     /* background repeat and position can be used while testing the screen size resizing */
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 
 
@@ -93,9 +91,25 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3.25rem;
     margin-bottom: 1rem;
+    
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    margin-top: 10px;
+    
 }
 
 p {
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
+}
+
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px; 
 }
