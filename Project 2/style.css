@@ -4,9 +4,8 @@ html {
 
 body {
     background-image: linear-gradient(#FC5E55, #FA4083);
-    /* font-family: Arial, Helvetica, sans-serif; */
-    color: white;
     font-family: 'Roboto', sans-serif;
+    color: white;
     font-size: 1.125rem;
 }
 
@@ -19,32 +18,27 @@ body {
 
 
 header {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
 }
 
 
 main {
-    /* background-color: seagreen; */
     min-height: 300px;
     display: flex;
     align-items: center;
 }
 
 .cards {
-    /* background-color: greenyellow;  */
-    /* min-height: 300px;  */
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
 .card1 {
-    /* background-color: blue; */
     background-image: url(images/image-background-card1-b.jpg);
     background-size: cover;
     min-height: 250px;
@@ -53,8 +47,6 @@ main {
 }
 
 .card2 {
-    /* background-color: orange; */
-    
     background-image: url(images/image-background-card2-b.jpg);
     background-size: cover;
     min-height: 250px;
@@ -63,27 +55,25 @@ main {
 }
 
 .card3 {
-    /* background-color: red; */
     background-image: url(images/image-background-card3-b.jpg);
     background-size: cover;
     min-height: 250px;
     width: 30%;
     background-position: bottom;
     /* background repeat and position can be used while testing the screen size resizing */
-    
 }
 
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
 
 .herobox1 {
-    /* background-color: purple; */
-    /* width: 66.3%; this can work without flexbox */
     flex: 2;
     padding-right: 100px;
 }
 
 .herobox2 {
-    /* background-color: yellow; */
-    /* width: 33.6%; this can work without flexbox */
     flex: 1;
 }
 
@@ -91,15 +81,12 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3.25rem;
     margin-bottom: 1rem;
-    
 }
-
 
 h2 {
     font-size: 2rem;
     font-family: "Playfair Display", serif;
-    margin-top: 10px;
-    
+    margin-top: 20px;
 }
 
 p {
@@ -111,12 +98,15 @@ p {
 .cards p {
     font-size: 0.85rem;
     line-height: 1.2rem;
-    margin: 10px 30px 20px 30px; 
+    margin-top: 10px; 
 }
 
-i {
+.cards i {
     font-size: 100px;
-    padding-top: 30px;
 }
 
+.cards a {
+    color: white;
+    text-decoration: none;
+}
 
