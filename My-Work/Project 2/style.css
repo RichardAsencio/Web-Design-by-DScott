@@ -135,3 +135,10 @@ nav .mybutton {
 }
 
 
+.navbutton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: "Playfair Display", serif;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.659);
+}
