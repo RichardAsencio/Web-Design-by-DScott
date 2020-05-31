@@ -71,6 +71,7 @@ main {
 .card1, .card2, .card3 {
     padding: 30px 30px 20px 30px;
     box-sizing: border-box;
+    
 }
 
 .herobox1 {
@@ -120,7 +121,9 @@ p {
 a.mybutton {
     display: inline-block;
     margin-top: 20px;
+    border-radius: 12px;
 }
+
 
 
 
