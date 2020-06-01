@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    /* height: 100%; */
 }
 
 body {
@@ -142,4 +142,19 @@ nav .mybutton {
     font-family: "Playfair Display", serif;
     border-radius: 12px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.659);
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
