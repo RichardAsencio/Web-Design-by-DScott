@@ -125,6 +125,12 @@ p {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.659);
 }
 
+.mybutton:hover {
+    background-color: lightseagreen;
+    color: white;
+    transition-duration: 1s;
+}
+
 a.mybutton {
     display: inline-block;
     margin-top: 20px;
@@ -157,4 +163,9 @@ nav .mybutton {
     border: 1px solid white;
     box-sizing: border-box;
     margin-top: 50px;
+}
+
+.tbox p:last-of-type {
+    font-size: .75rem;
+    padding-left: 30px;
 }
