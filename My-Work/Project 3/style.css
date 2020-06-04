@@ -1,0 +1,53 @@
+/* Global View or Dektop View */
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(43, 236, 147);
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.col {
+    background-color: rgb(247, 8, 131);
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;;
+}
+
+.hide-desktop-only {
+    display: none;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+    .col {
+        width: 45%;
+    }
+
+    .hide-desktop-only {
+        display: block;
+    }
+    
+}
+
+/* Mobile View */
+@media (max-width: 500px) {
+    
+    .col {
+        width: 100%;
+    }
+
+    .hide-mobile-only {
+        display:none;
+    }
+
+}
+
