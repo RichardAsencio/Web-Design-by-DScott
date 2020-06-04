@@ -1,9 +1,12 @@
 html {
     /* height: 100%; */
+    background-image: linear-gradient(#FC5E55, #FA4083);
 }
 
 body {
-    background-image: linear-gradient(#FC5E55, #FA4083);
+    background-image: url(images/lion-background-image3.png);
+    background-position: top center;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
@@ -28,7 +31,7 @@ header {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: solid 2px white;
+    border-bottom: 2px solid white;
 }
 
 
@@ -91,7 +94,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3.25rem;
     margin-bottom: 1rem;
-    text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.659);
+    text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.659);
 }
 
 h2 {
@@ -122,12 +125,11 @@ p {
     font-family: "Playfair Display", serif;
     padding: 11px 25px;
     border-radius: 12px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.659);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.659);
 }
 
 .mybutton:hover {
     background-color: lightseagreen;
-    color: white;
     transition-duration: 1s;
 }
 
@@ -137,7 +139,7 @@ a.mybutton {
 }
 
 
-nav .mybutton {
+nav a.mybutton {
     margin-left: 30px;
 }
 
@@ -197,3 +199,9 @@ nav .mybutton {
     color: #FA4083;
     
 }
+
+.navbutton:hover {
+    background-color: lightseagreen;
+    transition-duration: 1s;
+}
+
