@@ -41,6 +41,11 @@ main {
     align-items: center;
 }
 
+.main2 {
+    min-height: 300px;
+    padding: 50px;
+}
+
 .cards {
     display: flex;
     justify-content: space-between;
@@ -205,3 +210,8 @@ nav a.mybutton {
     transition-duration: 1s;
 }
 
+#logo-2:hover {
+    background-color: lightseagreen;
+    transition-duration: 1s;
+    border-radius: 5px;
+}
