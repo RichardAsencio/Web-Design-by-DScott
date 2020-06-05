@@ -15,8 +15,8 @@ body {
 }
 
 .col {
-    background-color: rgb(247, 8, 131);
-    min-height: 200px;
+    /* background-color: rgb(247, 8, 131);
+    min-height: 200px; */
     width: 30%;
     margin-bottom: 40px;;
 }
@@ -38,6 +38,10 @@ body {
     
 }
 
+.col img {
+    width: 100%;
+    height: auto;
+}
 /* Mobile View */
 @media (max-width: 500px) {
     
