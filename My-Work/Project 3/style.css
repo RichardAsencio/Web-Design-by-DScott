@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    background-color: rgb(43, 236, 147);
+    /* background-color: rgb(43, 236, 147); */
     min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
@@ -18,11 +18,17 @@ body {
     /* background-color: rgb(247, 8, 131);
     min-height: 200px; */
     width: 30%;
-    margin-bottom: 40px;;
+    margin-bottom: 40px;
+    background-color: rgb(43, 236, 147);
+
 }
 
 .hide-desktop-only {
     display: none;
+}
+
+.col p::first-line {
+    font-weight: bold;
 }
 
 /* Tablet View */
