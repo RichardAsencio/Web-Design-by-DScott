@@ -1,6 +1,5 @@
-/* Global View or Dektop View */
+/* Global View aka Dektop View */
 body {
-   
     font-family: 'Asap', sans-serif;
     color: white;
     background-color: rgb(211, 205, 205);
@@ -25,8 +24,6 @@ a {
 .header-container {
     background-color:rgb(60, 60, 60);
     min-height: 100px;
-    /* margin-bottom: 40px; */
-    /* justify-content: space-between; */
     position: fixed;
     width: 100%;
 }
@@ -34,11 +31,14 @@ a {
 header {
     max-width: 1024px;
     min-height: 100px;
-    margin: 0 auto; /* this property centers the violet header space  */
+    /* background-color: blueviolet; */
+    margin: 0 auto; /* this property centers the blueviolet header  */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .col {
     /* background-color: rgb(247, 8, 131);
@@ -70,7 +70,7 @@ header {
     font-weight: 700;
 }
 
-.myNav-button {
+.mybutton {
     /* padding: 10px 20px;
     border: solid 1px white;
     margin-left: 20px; */
@@ -103,9 +103,9 @@ footer {
     padding: 20px 10px; 
 }
 
-
-
-
+.mob-wrapper {
+    display: none; 
+}
 
 
 
@@ -124,19 +124,22 @@ footer {
     }
     
 
-
-
-header {
+/* header {
     display: block;
     text-align: center;
-}
+} */
 
 .header-container {
     position: relative;
 }
 
+
 .container {
     padding-top: 40px;
+}
+
+nav {
+    display: none;
 }
 
 nav a {
@@ -147,13 +150,33 @@ nav a {
     padding: 40px 0px; 
 }
 
-.myNav-button {
+.mybutton {
     margin-left: 0px;
 }
 
+.mob-wrapper {
+    display: block; 
+    padding-right: 30px;
+}
 
+.mob-nav {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.navbutton {
+    display: block;
+    /* background-color: coral; */
+    background-color: rgb(43, 236, 147);
+    padding: 15px 30px; 
+    margin-left: -70px;
+    text-align: center;
+}
 
 }
+
+
 
 
 
@@ -168,6 +191,8 @@ nav a {
     .hide-mobile-only {
         display:none;
     }
+
+}
 
     /* header {
     display: block;
@@ -195,5 +220,5 @@ nav a {
         padding-top: 40px;
     } */
 
-}
+
 
