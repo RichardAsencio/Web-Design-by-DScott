@@ -1,6 +1,17 @@
+/* Google Fonts */
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif; */
+
 body {
     /* background-color: lightslategrey; */   
     font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Abril Fatface', cursive; */
+    font-weight: 300;
+    background-image: linear-gradient(#00F490, #00BBC9);
 }
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
 
