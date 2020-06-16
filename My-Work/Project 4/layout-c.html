@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Layout C</title>
+    <style>
+        .mybox1 {
+            background-color: tomato;
+            min-height: 200px;
+            margin: 20px 10px;
+            padding: 20px;
+        }
+
+        .mybox2 {
+            background-color: springgreen;
+            min-height: 200px;
+            margin: 20px 10px;
+            padding: 20px;
+        }
+        .mybg1 {
+            background-color: darkslategrey;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- starts navbar area -->
+    <div class="container-fluid mybg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="mybox1">Logo</div>
+                </div>
+                <div class="col">
+                    <div class="mybox1">Navigation</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ends navbar area -->
+
+    
+    <div class="container">
+        <!-- start herobox with 2 nested cards -->
+        <div class="row">
+            <div class="col">
+                <div class="mybox1">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laborum molestias quasi quos maiores porro inventore cumque nulla et fuga, quae iste modi amet, nobis quia quo cum distinctio nisi neque, dignissimos pariatur numquam. Architecto facere similique iste libero necessitatibus amet. Ex odio recusandae adipisci, sequi rerum doloremque aliquam natus voluptates eius, iure impedit voluptatibus! Eligendi reprehenderit, aut minus quam impedit fugit. Enim cumque praesentium id illum, repudiandae eaque libero accusantium earum fugiat fuga. Adipisci sint, placeat consectetur praesentium id quae similique officiis, vel magnam fugit expedita! Laborum odio sapiente necessitatibus, et, voluptas, atque cumque nulla aut fugit maxime a.</p>
+                    <div class="row">
+                        <div class="col mybox2 m-5">Nest 1</div>
+                        <div class="col mybox2 mx-4">Nest 2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- start herobox with 2 nested cards -->
+
+        <!-- start of three feature boxes -->
+        <div class="row mb-5">
+            <div class="col">
+                <div class="mybox1">Feature 1</div>
+            </div>
+            <div class="col">
+                <div class="mybox1">Feature 2</div>
+            </div>
+            <div class="col">
+                <div class="mybox1">Feature 3</div>
+            </div>
+        </div>
+        <!-- end of three feature boxes -->
+    </div>
+
+        <!-- these feature boxes are wider because they should be inside the containter class that preceded this -->
+        <div class="container">
+            <div class="row">
+                <div class="col mybox1">Feature 1</div>
+                <div class="col mybox1">Feature 2</div>
+                <div class="col mybox1">Feature 3</div>
+            </div>
+        </div>
+    
+
+
+
+   
+        
+
+    
+  </body>
+</html>
