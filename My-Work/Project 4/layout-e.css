@@ -1,0 +1,17 @@
+/* Global or Desktop Setting */
+.mybox1 {
+    background-color: yellow;
+    min-height: 200px;
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+/* Tablet & Medium Settings */
+@media(768px) {
+
+}
+
+/* Mobile & Small Settings */
+@media(576px) {
+
+}
