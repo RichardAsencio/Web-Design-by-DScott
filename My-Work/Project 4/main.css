@@ -33,5 +33,18 @@ body {
 }
 
 .btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.899);
+}
+
+.dropdown-item {
+    color: rgb(66,193,204);
+    
+}
+
+/* .dropdown-item:hover {
     background-color: rgba(255, 255, 255, 0.166);
+} */
+
+.founders {
+    background-color: white;
 }
