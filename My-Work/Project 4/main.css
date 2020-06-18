@@ -48,3 +48,11 @@ body {
 .founders {
     background-color: white;
 }
+
+
+.btn-primary, .btn-primary:hover {
+    background-color:  rgb(66,193,204);
+    border-color: rgb(66,193,204);
+}
+
+
